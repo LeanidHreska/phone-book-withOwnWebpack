@@ -1,0 +1,67 @@
+.contactForm {
+  text-align: center;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.inputText {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  outline: none;
+  font-size: 18pt;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 2px solid #BAD9F3;
+  margin: 20px 0;
+}
+
+.inputText:focus {
+  border-color: #1F9DF4;
+}
+
+.submit {
+  width: 240px;
+  height: 40px;
+  outline: none;
+  background: none;
+  border: 2px solid #BAD9F3;
+  border-radius: 2px;
+  font-size: 15pt;
+  color:#6c90d4;
+  transition: color 0.5s, background-color 1s, border-color 1s;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+
+.cancelButton {
+  float: left;
+}
+
+.cancelButton:hover {
+  background-color: #eb7c7c;
+  color: #fff;
+  border-color: #eb7c7c;
+}
+
+.saveButton {
+  float: right;
+}
+
+.saveButton:hover {
+  background-color: #1F9DF4;
+  color: #fff;
+  border-color: #1F9DF4;
+}
+
+.submit:disabled {
+  background-color: #c2c2c2;
+  color: #fff;
+  border-color: #c2c2c2;
+}

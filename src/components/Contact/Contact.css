@@ -1,0 +1,62 @@
+.contact {
+  padding: 5px;
+  width: 50%;
+  box-sizing: border-box;
+  height: 145px;
+  font-size: 20pt;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: background-color 1s;
+  position: relative;
+  border: 2px solid #BAD9F3;
+  margin: 5px 20px;
+}
+
+
+
+.contact:hover {
+  background-color: #1DB9F7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profilePhoto {
+  height: 125px;
+  width: 125px;
+  margin-left: 2%;
+}
+
+.profileDescription {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.fa {
+  font-size: 18pt;
+  transition: color 0.5s;
+}
+
+.closeButton {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+
+.closeButton:hover {
+  color: #F1041C;
+}
+
+.editButton {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.editButton:hover {
+  color: #A6FF61;
+}
+

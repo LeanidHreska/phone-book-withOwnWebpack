@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #1F9DF4;
+  color: #fff;
+  padding: 20px;
+  font-size: 15pt;
+}

@@ -1,0 +1,17 @@
+.filterBlock {
+  margin: 25px 20px;
+}
+
+.filterInput {
+  width: 40%;
+  height: 50px;
+  outline: none;
+  font-size: 20pt;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 2px solid #BAD9F3;
+}
+
+.filterInput:focus {
+  border-color: #1F9DF4;
+}
